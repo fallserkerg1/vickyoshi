@@ -1,4 +1,6 @@
-<?php $__env->startSection('content'); ?>
+@extends('layouts.header')
+
+@section('content')
 
   <!-- Main Content -->
   <div class="container">
@@ -40,7 +42,7 @@
         <div class="post-preview">     
           <div class="card direct-chat direct-chat-primary">
             <div class="card-header">
-          <a href="post.html">
+          <a href="#">
             <h2 class="post-title">
               Science has not yet mastered prophecy
             </h2>
@@ -58,7 +60,7 @@
         <div class="post-preview">
           <div class="card direct-chat direct-chat-primary">
             <div class="card-header">
-            <a href="post.html">
+            <a href="#">
               <h2 class="post-title">
                 Failure is not an option
               </h2>
@@ -155,5 +157,4 @@
   </footer>
 </body>
 </html>
-<?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\vickyoshi\resources\views/index.blade.php ENDPATH**/ ?>
+@endsection
