@@ -40,7 +40,7 @@
         <div class="post-preview">     
           <div class="card direct-chat direct-chat-primary">
             <div class="card-header">
-          <a href="post.html">
+          <a href="#">
             <h2 class="post-title">
               Science has not yet mastered prophecy
             </h2>
@@ -58,7 +58,7 @@
         <div class="post-preview">
           <div class="card direct-chat direct-chat-primary">
             <div class="card-header">
-            <a href="post.html">
+            <a href="#">
               <h2 class="post-title">
                 Failure is not an option
               </h2>
